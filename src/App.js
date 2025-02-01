@@ -12,8 +12,8 @@ const Background = styled.div`
 
 const App = () => (
   <Background>
-    <Heading size="xl">Clare Laycock Coaching</Heading>
-    <Heading size="md">Coming soon...</Heading>
+    <Heading color="black" size="xl">Clare Laycock Coaching</Heading>
+    <Heading color="gray" size="md">Coming soon...</Heading>
   </Background>
 );
 
