@@ -1,12 +1,20 @@
 import React from "react";
-import { Box, Button, Heading } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
+import styled from "styled-components";
+
+const Background = styled.div`
+  background-color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 12px;
+  margin: 32px 0;
+  text-align: center;
+`;
 
 const App = () => (
-  <Box bg="blue.100" id="homepage">
+  <Background>
     <Heading size="xl">Clare Laycock Coaching</Heading>
     <Heading size="md">Coming soon...</Heading>
-    <Button colorPalette="green">Click here to click a button</Button>
-  </Box>
+  </Background>
 );
 
 export default App;
