@@ -5,12 +5,8 @@ import { Intro } from "./modules/intro";
 
 const App = () => (
   <>
-    <div>
-      <Header />
-    </div>
-    <div>
-      <Intro />
-    </div>
+    <Header />
+    <Intro />
   </>
 );
 
