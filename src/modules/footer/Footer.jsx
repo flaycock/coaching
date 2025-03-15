@@ -19,7 +19,7 @@ export const Footer = () => (
   <>
     <FooterWrapper data-test-id="footer">
       <Box float="left">
-        <Text>Website By:&nbsp;
+        <Text textStyle={["xs", "xs", "md", "lg"]}>Website By:&nbsp;
           <CustomLink
             href="https://uk.linkedin.com/in/freddie-laycock-a23974171"
             newTab={true}
@@ -28,7 +28,7 @@ export const Footer = () => (
         </Text>
       </Box>
       <Box float="right">
-        <Text>
+        <Text textStyle={["xs", "xs", "md", "lg"]}>
           Photos By:&nbsp;
           <CustomLink
             href="#"

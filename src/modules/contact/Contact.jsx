@@ -9,7 +9,7 @@ export const Contact = () => (
   <Box id="contact" paddingBottom="16px">
     <SectionContainer heading="Contact Me">
       <Box marginY="auto">
-        <Image htmlWidth="100%" src={contact} />
+        <Image htmlWidth="100%" loading="lazy" src={contact} />
       </Box>
       <Box marginY="auto">
         <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
