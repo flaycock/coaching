@@ -24,7 +24,7 @@ export const Header = () => (
         </Text>
       </Box>
       <Box float="right">
-        <CustomLink href="#" text="Contact Me" />
+        <CustomLink href="#contact" text="Contact Me" />
       </Box>
     </HeaderWrapper>
     <Spacer />

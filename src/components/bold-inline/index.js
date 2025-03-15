@@ -1,0 +1,1 @@
+export { BoldInline } from "./BoldInline";
