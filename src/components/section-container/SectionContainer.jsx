@@ -20,7 +20,7 @@ export const SectionContainer = ({ children, heading, numChildren = 2 }) => (
         {heading}
       </Heading>
     )}
-    <Grid templateColumns={`repeat(${numChildren}, 1fr)`} gap="8">
+    <Grid templateColumns={["repeat(1, 1fr)", `repeat(${numChildren}, 1fr)`]} gap="8">
       {children}
     </Grid>
   </IntroWrapper>

@@ -7,16 +7,20 @@ import { SectionContainer } from "../../components/section-container";
 export const Contact = () => (
   <Box id="contact" paddingBottom="16px">
     <SectionContainer heading="Contact Me">
-      <Box marginY="auto">
+      <Box marginY="auto" maxWidth="600px">
         <Image htmlWidth="100%" src="https://placehold.co/400" />
       </Box>
       <Box marginY="auto">
-        <Text textStyle="xs">
+        <Text textStyle={["xs", "xs", "md", "lg"]}>
           Thanks for taking a look at my website! If you would like any more information, or would like to book
           a session, feel free to contact me via&nbsp;
           <CustomLink href="mailto:clarelaycock@blueyonder.co.uk" text="EMAIL" />
           &nbsp;or&nbsp;
-          <CustomLink href="https://uk.linkedin.com/in/clare-laycock-2200b821" text="LinkedIn" />.
+          <CustomLink
+            href="https://uk.linkedin.com/in/clare-laycock-2200b821"
+            newTab={true}
+            text="LinkedIn"
+          />.
           <br />
           <br />
           Wish you all the best for whatever the future holds.

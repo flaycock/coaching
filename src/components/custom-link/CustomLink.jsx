@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Text } from "@chakra-ui/react"
 
 const Link = styled.a`
   cursor: pointer;
@@ -9,8 +10,8 @@ const Link = styled.a`
   }
 `;
 
-export const CustomLink = ({ href, text}) => (
-  <Link href={href}>
-    {text}
+export const CustomLink = ({ href, newTab = false, text}) => (
+  <Link href={href} target={newTab ? "_blank" : ""}>
+    <Text as="span" textStyle={["xs", "xs", "md", "lg"]}>{text}</Text>
   </Link>
 );

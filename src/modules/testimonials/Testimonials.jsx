@@ -40,7 +40,7 @@ export const Testimonials = () => (
         <Testimonial quote={quote} source={source} />
       ))}
     </Box>
-    <Box marginY="auto">
+    <Box marginY="auto" maxWidth="600px">
       <Image htmlWidth="100%" src="https://placehold.co/400" />
     </Box>
   </SectionContainer>
