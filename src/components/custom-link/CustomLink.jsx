@@ -12,6 +12,6 @@ const Link = styled.a`
 
 export const CustomLink = ({ href, newTab = false, text}) => (
   <Link href={href} target={newTab ? "_blank" : ""}>
-    <Text as="span" textStyle={["xs", "xs", "md", "lg"]}>{text}</Text>
+    <Text as="span" textStyle={["xs", "xs", "sm", "md"]}>{text}</Text>
   </Link>
 );
