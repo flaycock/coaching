@@ -2,11 +2,12 @@ import { Box, Image, Text } from "@chakra-ui/react";
 
 import { BoldInline } from "../../components/bold-inline";
 import { SectionContainer } from "../../components/section-container";
+import aboutMe from "../../images/about-me.jpg";
 
 export const AboutMe = () => (
   <SectionContainer heading="About Me">
     <Box marginY="auto">
-      <Image htmlWidth="100%" src="https://placehold.co/400" />
+      <Image htmlWidth="100%" src={aboutMe} />
     </Box>
     <Box marginY="auto">
       <Text textStyle={["xs", "xs", "md", "lg", "xl"]}>

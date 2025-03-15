@@ -34,14 +34,11 @@ const TESTIMONIAL_DATA = [
 ];
 
 export const Testimonials = () => (
-  <SectionContainer heading="Testimonials">
+  <SectionContainer heading="Testimonials" numChildren={1}>
     <Box marginY="auto">
       {TESTIMONIAL_DATA.map(({ quote, source }) => (
         <Testimonial quote={quote} source={source} />
       ))}
-    </Box>
-    <Box marginY="auto">
-      <Image htmlWidth="100%" src="https://placehold.co/400" />
     </Box>
   </SectionContainer>
 );

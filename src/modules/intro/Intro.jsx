@@ -3,6 +3,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 import { BoldInline } from "../../components/bold-inline";
 import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
+import intro from "../../images/intro.jpg";
 
 export const Intro = () => (
   <SectionContainer>
@@ -27,7 +28,7 @@ export const Intro = () => (
       </Text>
     </Box>
     <Box marginY="auto">
-      <Image htmlWidth="100%" src="https://placehold.co/400" />
+      <Image htmlWidth="100%" src={intro} />
     </Box>
   </SectionContainer>
 );

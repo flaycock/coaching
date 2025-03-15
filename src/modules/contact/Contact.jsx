@@ -3,12 +3,13 @@ import { Box, Image, Text } from "@chakra-ui/react";
 
 import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
+import contact from "../../images/contact.jpg";
 
 export const Contact = () => (
   <Box id="contact" paddingBottom="16px">
     <SectionContainer heading="Contact Me">
       <Box marginY="auto">
-        <Image htmlWidth="100%" src="https://placehold.co/400" />
+        <Image htmlWidth="100%" src={contact} />
       </Box>
       <Box marginY="auto">
         <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
