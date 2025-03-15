@@ -17,7 +17,7 @@ export const AboutMe = () => (
         <br />
         <br />
         I spent 30+ years in global media companies, leading creative and content teams through an ever-changing
-        media landscape, including 
+        media landscape, including&nbsp;
         <BoldInline>
           Discovery, the BBC, UKTV and Warner Bros. Discovery
         </BoldInline>
@@ -26,11 +26,11 @@ export const AboutMe = () => (
         risk and failure and building dream teams with a core mission. And I've had a great time doing it.
         <br />
         <br />
-        Now, as a qualified coach and member of the 
+        Now, as a qualified coach and member of the&nbsp;
         <BoldInline>
           International Coaching Federation
         </BoldInline>
-        , I work with executives and teams to unlck transformational thinking that enables them to move 
+        , I work with executives and teams to unlock transformational thinking that enables them to move 
         forwards in successful careers that fulfil their potential and bring them joy.
         <br />
         <br />

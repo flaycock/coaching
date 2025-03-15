@@ -11,7 +11,7 @@ export const Contact = () => (
         <Image htmlWidth="100%" src="https://placehold.co/400" />
       </Box>
       <Box marginY="auto">
-        <Text textStyle={["xs", "xs", "md", "lg"]}>
+        <Text textStyle={["sm", "sm", "lg", "xl"]}>
           Thanks for taking a look at my website! If you would like any more information, or would like to book
           a session, feel free to contact me via&nbsp;
           <CustomLink href="mailto:clarelaycock@blueyonder.co.uk" text="EMAIL" />
