@@ -14,7 +14,7 @@ export const SectionContainer = ({ children, heading, numChildren = 2 }) => (
       <Heading
         as="h2"
         paddingBottom="16px"
-        size="2xl"
+        size={["2xl", "2xl", "3xl", "4xl", "5xl"]}
         textAlign="center"
       >
         {heading}

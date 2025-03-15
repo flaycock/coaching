@@ -7,7 +7,7 @@ import { SectionContainer } from "../../components/section-container";
 export const Intro = () => (
   <SectionContainer>
     <Box marginY="auto">
-      <Text textStyle={["xs", "xs", "md", "lg"]}>
+      <Text textStyle={["xs", "xs", "md", "lg", "xl"]}>
         Market disruption, turbulent times, regime changes, re-structures... sound familiar?
         <br /><br />
         Are you tied of feeling under threat, stressed, fearful of the future, stuck?
@@ -26,7 +26,7 @@ export const Intro = () => (
         call. I'd love to say hello.
       </Text>
     </Box>
-    <Box marginY="auto" maxWidth="600px">
+    <Box marginY="auto">
       <Image htmlWidth="100%" src="https://placehold.co/400" />
     </Box>
   </SectionContainer>

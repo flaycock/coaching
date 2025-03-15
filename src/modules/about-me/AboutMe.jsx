@@ -5,11 +5,11 @@ import { SectionContainer } from "../../components/section-container";
 
 export const AboutMe = () => (
   <SectionContainer heading="About Me">
-    <Box marginY="auto" maxWidth="600px">
+    <Box marginY="auto">
       <Image htmlWidth="100%" src="https://placehold.co/400" />
     </Box>
     <Box marginY="auto">
-      <Text textStyle={["xs", "xs", "md", "lg"]}>
+      <Text textStyle={["xs", "xs", "md", "lg", "xl"]}>
         Hello. What drives you?
         <br /><br />
         For me it's to be excited by life and to have fun - but also to share expertise and inspire others -
