@@ -12,7 +12,7 @@ const FooterWrapper = styled.div`
 `;
 
 const Spacer = styled.div`
-  height: 100px;
+  height: calc(55px + min(20px, 1vw));
 `;
 
 export const Footer = () => (

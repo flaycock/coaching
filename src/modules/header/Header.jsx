@@ -12,7 +12,7 @@ const HeaderWrapper = styled.div`
 `;
 
 const Spacer = styled.div`
-  height: 100px;
+  height: calc(70px + min(20px, 1vw));
 `;
 
 export const Header = () => (
