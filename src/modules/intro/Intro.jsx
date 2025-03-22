@@ -10,8 +10,8 @@ export const Intro = () => {
 
   return (
     <SectionContainer>
-      <Box marginY="auto">
-        <Text order={isMobile ? 1 : 2} textStyle={["xs", "xs", "md", "lg", "xl"]}>
+      <Box marginY="auto" order={isMobile ? 1 : 2} >
+        <Text textStyle={["xs", "xs", "md", "lg", "xl"]}>
           Market disruption, turbulent times, regime changes, re-structures... sound familiar?
           <br /><br />
           Are you tied of feeling under threat, stressed, fearful of the future, stuck?
