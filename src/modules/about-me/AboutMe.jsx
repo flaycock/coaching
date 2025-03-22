@@ -7,7 +7,14 @@ import aboutMe from "../../images/about-me.jpg";
 export const AboutMe = () => (
   <SectionContainer heading="About Me">
     <Box marginY="auto">
-      <Image border="1px solid black" borderRadius="4px" htmlWidth="100%" loading="lazy" src={aboutMe} />
+      <Image
+        alt="About Me photo"
+        border="1px solid black"
+        borderRadius="4px"
+        htmlWidth="100%"
+        loading="lazy"
+        src={aboutMe} 
+      />
     </Box>
     <Box marginY="auto">
       <Text textStyle={["xs", "xs", "md", "lg", "xl"]}>

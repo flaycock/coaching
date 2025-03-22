@@ -30,8 +30,14 @@ export const Intro = () => {
           call. I'd love to say hello.
         </Text>
       </Box>
-      <Box border="1px solid black" borderRadius="4px" marginY="auto" order={isMobile ? 2 : 1}>
-        <Image htmlWidth="100%" src={intro} />
+      <Box marginY="auto" order={isMobile ? 2 : 1}>
+        <Image
+          alt="Intro photo"
+          border="1px solid black"
+          borderRadius="4px"
+          htmlWidth="100%"
+          src={intro} 
+        />
       </Box>
     </SectionContainer>
   )
