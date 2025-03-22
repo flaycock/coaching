@@ -1,12 +1,14 @@
 import styled from "styled-components";
 import { Text } from "@chakra-ui/react"
 
+import { SECONDARY_FONT_COLOUR } from "../../constants";
+
 const Link = styled.a`
+  color: ${SECONDARY_FONT_COLOUR};
   cursor: pointer;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    text-decoration-color: #B20085
   }
 `;
 

@@ -2,13 +2,15 @@ import { Box, Text } from "@chakra-ui/react";
 import styled from "styled-components";
 
 import { CustomLink } from "../../components/custom-link";
+import { SECONDARY_BG_COLOUR } from "../../constants";
 
 const FooterWrapper = styled.div`
-  position: absolute;
+  background-color: ${SECONDARY_BG_COLOUR};
+  border-bottom: 2px solid ${SECONDARY_BG_COLOUR};
   bottom: 0;
-  width: 100%;
-  border-top: 2px solid #B20085;
   padding: 16px 32px;
+  position: absolute;
+  width: 100%;
 `;
 
 const Spacer = styled.div`
