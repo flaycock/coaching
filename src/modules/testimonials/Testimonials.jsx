@@ -34,7 +34,7 @@ const TESTIMONIAL_DATA = [
 ];
 
 export const Testimonials = () => (
-  <SectionContainer heading="Testimonials" numChildren={1}>
+  <SectionContainer heading="testimonials" numChildren={1}>
     <Box marginY="auto">
       {TESTIMONIAL_DATA.map(({ quote, source }) => (
         <Testimonial quote={quote} source={source} />

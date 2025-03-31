@@ -1,11 +1,12 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Image, Text } from "@chakra-ui/react";
 import styled from "styled-components";
 
 import { CustomLink } from "../../components/custom-link";
 import { SECONDARY_BG_COLOUR } from "../../constants";
+import icon from "../../images/icon.png";
 
 const HeaderWrapper = styled.div`
-  background-color: ${SECONDARY_BG_COLOUR};
+  background-color: #c4dcd4;
   border-bottom: 2px solid ${SECONDARY_BG_COLOUR};
   padding: 16px 32px;
   position: absolute;
@@ -21,12 +22,10 @@ export const Header = () => (
   <>
     <HeaderWrapper data-test-id="header">
       <Box float="left">
-        <Text>
-          Logo
-        </Text>
+        <Image src={icon} height="50px" />
       </Box>
       <Box float="right">
-        <CustomLink href="#contact" text="Contact Me" />
+        <CustomLink href="#contact" text="Get in touch" />
       </Box>
     </HeaderWrapper>
     <Spacer />

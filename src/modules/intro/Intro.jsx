@@ -4,14 +4,17 @@ import { BoldInline } from "../../components/bold-inline";
 import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
 import intro from "../../images/intro.jpg";
+import logo from "../../images/logo-cropped.png";
 
 export const Intro = () => {
   const [isMobile] = useMediaQuery('(min-width: 768px)', { fallback: [false] });
 
   return (
+    <>
+    <Image src={logo} margin="auto" padding="32px 100px 0 100px" />
     <SectionContainer>
       <Box marginY="auto" order={isMobile ? 1 : 2} >
-        <Text textStyle={["xs", "xs", "md", "lg", "xl"]}>
+        <Text lineHeight="50%" textStyle={["xs", "xs", "md", "lg", "xl"]}>
           Market disruption, turbulent times, regime changes, re-structures... sound familiar?
           <br /><br />
           Are you tied of feeling under threat, stressed, fearful of the future, stuck?
@@ -33,12 +36,13 @@ export const Intro = () => {
       <Box marginY="auto" order={isMobile ? 2 : 1}>
         <Image
           alt="Intro photo"
-          border="1px solid black"
-          borderRadius="4px"
+          border="1px solid #9ac6b2"
+          borderRadius="12px"
           htmlWidth="100%"
           src={intro} 
         />
       </Box>
     </SectionContainer>
+    </>
   )
 };

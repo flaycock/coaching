@@ -2,20 +2,9 @@ import { Box, Image, Text } from "@chakra-ui/react";
 
 import { BoldInline } from "../../components/bold-inline";
 import { SectionContainer } from "../../components/section-container";
-import aboutMe from "../../images/about-me.jpg";
 
 export const AboutMe = () => (
-  <SectionContainer heading="About Me">
-    <Box marginY="auto">
-      <Image
-        alt="About Me photo"
-        border="1px solid black"
-        borderRadius="4px"
-        htmlWidth="100%"
-        loading="lazy"
-        src={aboutMe} 
-      />
-    </Box>
+  <SectionContainer heading="about me" numChildren={1}>
     <Box marginY="auto">
       <Text textStyle={["xs", "xs", "md", "lg", "xl"]}>
         Hello. What drives you?

@@ -7,12 +7,12 @@ import contact from "../../images/contact.jpg";
 
 export const Contact = () => (
   <Box id="contact" paddingBottom="16px">
-    <SectionContainer heading="Contact Me">
+    <SectionContainer bottom={true} heading="contact me">
       <Box marginY="auto">
         <Image
           alt="Contact photo"
-          border="1px solid black"
-          borderRadius="4px"
+          border="1px solid #9ac6b2"
+          borderRadius="12px"
           htmlWidth="100%"
           loading="lazy"
           src={contact}
@@ -22,7 +22,7 @@ export const Contact = () => (
         <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
           Thanks for taking a look at my website! If you would like any more information, or would like to book
           a session, feel free to contact me via&nbsp;
-          <CustomLink href="mailto:clarelaycock@blueyonder.co.uk" text="EMAIL" />
+          <CustomLink href="mailto:clarelaycock5@gmail.com" text="EMAIL" />
           &nbsp;or&nbsp;
           <CustomLink
             href="https://uk.linkedin.com/in/clare-laycock-2200b821"

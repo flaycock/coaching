@@ -5,7 +5,7 @@ import { CustomLink } from "../../components/custom-link";
 import { SECONDARY_BG_COLOUR } from "../../constants";
 
 const FooterWrapper = styled.div`
-  background-color: ${SECONDARY_BG_COLOUR};
+  background-color: #c4dcd4;
   border-bottom: 2px solid ${SECONDARY_BG_COLOUR};
   bottom: 0;
   padding: 16px 32px;
@@ -21,7 +21,7 @@ export const Footer = () => (
   <>
     <FooterWrapper data-test-id="footer">
       <Box float="left">
-        <Text textStyle={["xs", "xs", "xs", "md"]}>Website By:&nbsp;
+        <Text textStyle={["xs", "xs", "xs", "md"]}>Website:&nbsp;
           <CustomLink
             href="https://uk.linkedin.com/in/freddie-laycock-a23974171"
             newTab={true}
@@ -31,7 +31,7 @@ export const Footer = () => (
       </Box>
       <Box float="right">
         <Text textStyle={["xs", "xs", "xs", "md"]}>
-          Photos By:&nbsp;
+          Photos:&nbsp;
           <CustomLink
             href="#"
             newTab={true}
