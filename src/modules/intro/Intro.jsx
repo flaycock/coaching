@@ -1,4 +1,4 @@
-import { Box, Image, Text, useMediaQuery } from "@chakra-ui/react";
+import { Box, Image, Text } from "@chakra-ui/react";
 
 import { BoldInline } from "../../components/bold-inline";
 import { CustomLink } from "../../components/custom-link";
@@ -6,11 +6,8 @@ import { SectionContainer } from "../../components/section-container";
 import intro from "../../images/intro.jpg";
 import logo from "../../images/logo-cropped.png";
 
-export const Intro = () => {
-  const [isMobile] = useMediaQuery('(min-width: 768px)', { fallback: [false] });
-
-  return (
-    <>
+export const Intro = () => (
+  <>
     <Image
       src={logo}
       alt="Clare Laycock Coaching logo"
@@ -19,7 +16,7 @@ export const Intro = () => {
       paddingX={["75px", "120px", "150px", "200px", "250px"]}
     />
     <SectionContainer>
-      <Box marginY="auto" order={isMobile ? 1 : 2} >
+      <Box marginY="auto">
         <Text lineHeight="50%" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
           Market disruption, turbulent times, regime changes, re-structures... sound familiar?
           <br /><br />
@@ -39,7 +36,7 @@ export const Intro = () => {
           call. I'd love to say hello.
         </Text>
       </Box>
-      <Box marginY="auto" order={isMobile ? 2 : 1}>
+      <Box marginY="auto">
         <Image
           alt="Intro photo"
           border="1px solid #9ac6b2"
@@ -49,6 +46,5 @@ export const Intro = () => {
         />
       </Box>
     </SectionContainer>
-    </>
-  )
-};
+  </>
+);

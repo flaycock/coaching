@@ -9,7 +9,6 @@ const SectionWrapper = styled.div`
   border: 1px solid ${SECONDARY_BG_COLOUR};
   border-radius: 8px;
   margin: min(32px, 6vw);
-  padding: 0 60px;
 `;
 
 export const SectionContainer = ({ bottom = false, children, heading, numChildren = 2 }) => (
@@ -22,7 +21,7 @@ export const SectionContainer = ({ bottom = false, children, heading, numChildre
         size={["3xl", "4xl", "4xl", "5xl", "6xl"]}
         textAlign="center"
         fontFamily="LeagueSpartan"
-        letterSpacing="-5px"
+        letterSpacing={["-3px", "-3px", "-4px", "-5px"]}
       >
         {heading}
       </Heading>
@@ -30,6 +29,7 @@ export const SectionContainer = ({ bottom = false, children, heading, numChildre
     <Grid
       templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", `repeat(${numChildren}, 1fr)`]}
       gap={["8", "10", "12", "14", "16"]}
+      paddingX={["16px", "32px", "60px", "90px", "120px"]}
     >
       {children}
     </Grid>
