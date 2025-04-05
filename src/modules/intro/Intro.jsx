@@ -11,10 +11,16 @@ export const Intro = () => {
 
   return (
     <>
-    <Image src={logo} margin="auto" padding="32px 100px 0 100px" />
+    <Image
+      src={logo}
+      alt="Clare Laycock Coaching logo"
+      margin="auto"
+      paddingTop="32px"
+      paddingX={["75px", "120px", "150px", "200px", "250px"]}
+    />
     <SectionContainer>
       <Box marginY="auto" order={isMobile ? 1 : 2} >
-        <Text lineHeight="50%" textStyle={["xs", "xs", "md", "lg", "xl"]}>
+        <Text lineHeight="50%" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
           Market disruption, turbulent times, regime changes, re-structures... sound familiar?
           <br /><br />
           Are you tied of feeling under threat, stressed, fearful of the future, stuck?

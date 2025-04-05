@@ -23,6 +23,7 @@ export const Footer = () => (
       <Box float="left">
         <Text textStyle={["xs", "xs", "xs", "md"]}>Website:&nbsp;
           <CustomLink
+            headFoot={true}
             href="https://uk.linkedin.com/in/freddie-laycock-a23974171"
             newTab={true}
             text="Freddie Laycock"
@@ -33,6 +34,7 @@ export const Footer = () => (
         <Text textStyle={["xs", "xs", "xs", "md"]}>
           Photos:&nbsp;
           <CustomLink
+            headFoot={true}
             href="#"
             newTab={true}
             text="Name"

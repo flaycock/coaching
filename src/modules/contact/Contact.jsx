@@ -19,7 +19,7 @@ export const Contact = () => (
         />
       </Box>
       <Box marginY="auto">
-        <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
+        <Text textStyle={["md", "md", "xl", "2xl", "3xl"]}>
           Thanks for taking a look at my website! If you would like any more information, or would like to book
           a session, feel free to contact me via&nbsp;
           <CustomLink href="mailto:clarelaycock5@gmail.com" text="EMAIL" />

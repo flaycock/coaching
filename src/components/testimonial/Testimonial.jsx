@@ -4,7 +4,7 @@ import { SECONDARY_FONT_COLOUR } from "../../constants";
 
 export const Testimonial = ({ quote, source }) => (
   <Box marginY="16px" textAlign="center">
-    <Text paddingBottom="4px" textStyle={["sm", "md", "lg", "xl"]}>{quote}</Text>
+    <Text paddingBottom="4px" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>{quote}</Text>
     <Text
       color={SECONDARY_FONT_COLOUR}
       fontStyle="italic"

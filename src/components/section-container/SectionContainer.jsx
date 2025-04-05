@@ -1,7 +1,7 @@
 import { Grid, Heading, Image } from "@chakra-ui/react";
 import styled from "styled-components";
 
-import { SECONDARY_BG_COLOUR, SECONDARY_FONT_COLOUR } from "../../constants";
+import { SECONDARY_BG_COLOUR, PRIMARY_FONT_COLOUR } from "../../constants";
 import pageBreak from "../../images/page-break.png";
 
 const SectionWrapper = styled.div`
@@ -17,15 +17,20 @@ export const SectionContainer = ({ bottom = false, children, heading, numChildre
     {heading && (
       <Heading
         as="h2"
-        color="#735240"
+        color={PRIMARY_FONT_COLOUR}
         paddingBottom="16px"
-        size={["2xl", "2xl", "3xl", "4xl", "5xl"]}
+        size={["3xl", "4xl", "4xl", "5xl", "6xl"]}
         textAlign="center"
+        fontFamily="LeagueSpartan"
+        letterSpacing="-5px"
       >
         {heading}
       </Heading>
     )}
-    <Grid templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", `repeat(${numChildren}, 1fr)`]} gap="16">
+    <Grid
+      templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", `repeat(${numChildren}, 1fr)`]}
+      gap={["8", "10", "12", "14", "16"]}
+    >
       {children}
     </Grid>
     {!bottom && (

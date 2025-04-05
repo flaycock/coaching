@@ -6,7 +6,7 @@ import { SectionContainer } from "../../components/section-container";
 export const AboutMe = () => (
   <SectionContainer heading="about me" numChildren={1}>
     <Box marginY="auto">
-      <Text textStyle={["xs", "xs", "md", "lg", "xl"]}>
+      <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
         Hello. What drives you?
         <br /><br />
         For me it's to be excited by life and to have fun - but also to share expertise and inspire others -
