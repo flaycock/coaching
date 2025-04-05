@@ -19,7 +19,7 @@ export const Contact = () => (
           fontFamily="LeagueSpartan"
           letterSpacing={["-3px", "-3px", "-4px", "-5px"]}
         >
-          Contact me
+          contact me
         </Heading>
         <Text textStyle={["md", "md", "xl", "2xl", "3xl"]}>
           Thanks for taking a look at my website! If you would like any more information, or would like to book
