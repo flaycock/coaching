@@ -1,34 +1,38 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 
 import { BoldInline } from "../../components/bold-inline";
+import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
 
 export const AboutMe = () => (
   <SectionContainer heading="about me" numChildren={1}>
     <Box marginY="auto">
       <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
-        Hello. What drives you?
+        What gets you out of bed in the morning ?
         <br /><br />
-        For me it's to be excited by life and to have fun - but also to share expertise and inspire others -
-        which is why I launched Clare Laycock Coaching.
+        For me it’s to be excited by life and to have fun - but also to&nbsp;
+          <BoldInline>share expertise and inspire others</BoldInline>
+        &nbsp;- which is why I launched Clare Laycock Coaching.
         <br />
         <br />
-        I spent 30+ years in global media companies, leading creative and content teams through an ever-changing
-        media landscape, including&nbsp;
-        <BoldInline>
-          Discovery, the BBC, UKTV and Warner Bros. Discovery
-        </BoldInline>
-        . I've been through the reorganisations, the mergers, the regime-changes; I've learnt how to flex,
-        adapt and thrive through change, knowing when and what to fight for, and getting comfortable with
-        risk and failure and building dream teams with a core mission. And I've had a great time doing it.
+        I’ve spent 30+ years in global media companies, leading creative, commissioning and content
+        teams through an ever-changing media landscape.  I’ve held senior roles at Discovery, the BBC,
+        UKTV and Warner Brothers Discovery.  You can read more in my bio&nbsp;
+          <CustomLink>HERE</CustomLink>.
+        <br /><br />
+        I’ve been through reorganisations, mergers and regime-changes.
+        I’ve learnt how to flex, adapt and thrive through change - understanding when and what
+        to fight for and getting comfortable with risk and the possibility of failure. I’ve built and
+        led dream-teams working to a core mission.  And I’ve had a great time doing it.
         <br />
         <br />
-        Now, as a qualified coach and member of the&nbsp;
-        <BoldInline>
-          International Coaching Federation
-        </BoldInline>
-        , I work with executives and teams to unlock transformational thinking that enables them to move 
-        forwards in successful careers that fulfil their potential and bring them joy.
+        Now, as a&nbsp;
+          <BoldInline>qualified business and personal coach</BoldInline>
+        &nbsp;and a member of the International Coaching Federation, I work with executives and teams
+        to unlock transformational thinking that enables them to move forwards in
+          <BoldInline>successful careers that fulfil their potential</BoldInline>
+        &nbsp;and, most importantly,
+          <BoldInline>bring them joy</BoldInline>.
         <br />
         <br />
         But enough about me - what about you? Get in touch, it'd be great to meet you.

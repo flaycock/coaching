@@ -2,15 +2,20 @@ import { Box, Text } from "@chakra-ui/react";
 
 import { SECONDARY_FONT_COLOUR } from "../../constants";
 
-export const Testimonial = ({ quote, source }) => (
+export const Testimonial = ({ quotes, sources }) => (
   <Box marginY="16px" textAlign="center">
-    <Text paddingBottom="4px" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>{quote}</Text>
+    {quotes.map(quote => (
+      <Text paddingBottom="6px" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>{quote}</Text>
+    ))}
+    {sources.map(source => (
     <Text
       color={SECONDARY_FONT_COLOUR}
       fontStyle="italic"
+      paddingBottom="8px"
       textStyle={["xs", "xs", "md", "lg"]}
     >
-      - {source}
+      {source}
     </Text>
+    ))}
   </Box>
 );

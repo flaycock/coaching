@@ -22,8 +22,8 @@ export const Contact = () => (
           contact me
         </Heading>
         <Text textStyle={["md", "md", "xl", "2xl", "3xl"]}>
-          Thanks for taking a look at my website! If you would like any more information, or would like to book
-          a session, feel free to contact me via&nbsp;
+        Thanks for taking a look at my website. If you’d like more information about how we might work
+        together and for details of pricing packages, please contact me on &nbsp;
           <CustomLink href="mailto:clarelaycock5@gmail.com" text="EMAIL" />
           &nbsp;or&nbsp;
           <CustomLink
@@ -31,9 +31,6 @@ export const Contact = () => (
             newTab={true}
             text="LinkedIn"
           />.
-          <br />
-          <br />
-          Wish you all the best for whatever the future holds.
         </Text>
       </Box>
       <Box marginY="auto">

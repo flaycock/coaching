@@ -18,22 +18,27 @@ export const Intro = () => (
     <SectionContainer>
       <Box marginY="auto">
         <Text lineHeight="50%" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
-          Market disruption, turbulent times, regime changes, re-structures... sound familiar?
+          Market disruption, regime changes, restructures, uncertainty - the chances are these are part
+          of your working life these days.
           <br /><br />
-          Are you tied of feeling under threat, stressed, fearful of the future, stuck?
+          I’ve experienced them all, and overcome them to have a long and successful media career with
+          a reputation as an excellent creative leader and communicator.
           <br /><br />
-          I've experienced all these things and overcome themto have a long and successful media career
-          with a reputation as an excellent creative leader and communicator - and now I use that
-          expertise to unlock transformational success in others.
+          Now I use that expertise to&nbsp;
+            <BoldInline>unlock transformational success</BoldInline>
+          &nbsp;in others.
           <br /><br />
-          Through 1:1 coaching and team workshops&nbsp;
+          Through&nbsp;
             <BoldInline>
-              I help executives and leaders succeed, building the courage, confidence and communication
-              skills they need to survive and thrive admist industry disruption and change.
+              one-to-one coaching, group coaching and team workshops
             </BoldInline>
+          &nbsp;I help executives and leaders succeed, building the courage, confidence and
+          communication skills they need to survive and thrive amidst industry disruption and change.
           <br /><br />
-          Get in touch <CustomLink href="#contact" text="HERE" /> to find out more and book in a FREE chemistry
-          call. I'd love to say hello.
+          If you’re tired of feeling stressed, overwhelmed, stuck, fearful of the future - or if you just
+          need help figuring out your next steps - I can help you.
+          <br /><br />
+          Get in touch <CustomLink href="#contact" text="HERE" /> to find out. I'd love to say hello.
         </Text>
       </Box>
       <Box marginY="auto">

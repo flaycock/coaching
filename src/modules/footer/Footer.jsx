@@ -35,9 +35,9 @@ export const Footer = () => (
           Photos:&nbsp;
           <CustomLink
             headFoot={true}
-            href="#"
+            href="https://www.linkedin.com/in/jane-keating-391369139"
             newTab={true}
-            text="Name"
+            text="Jane Keating"
           />
         </Text>
       </Box>
