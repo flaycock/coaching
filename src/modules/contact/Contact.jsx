@@ -13,7 +13,7 @@ export const Contact = () => (
         <Heading
           as="h2"
           color={PRIMARY_FONT_COLOUR}
-          paddingBottom="16px"
+          paddingBottom={["8px", "20px", "40px", "60px", "80px"]}
           size={["3xl", "4xl", "4xl", "5xl", "6xl"]}
           textAlign="center"
           fontFamily="LeagueSpartan"

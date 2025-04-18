@@ -8,7 +8,7 @@ const SectionWrapper = styled.div`
   background-color: ${SECONDARY_BG_COLOUR};
   border: 1px solid ${SECONDARY_BG_COLOUR};
   border-radius: 8px;
-  margin: min(32px, 6vw);
+  margin: min(28px, 6vw);
 `;
 
 export const SectionContainer = ({ bottom = false, children, heading, numChildren = 2 }) => (
@@ -38,8 +38,8 @@ export const SectionContainer = ({ bottom = false, children, heading, numChildre
         src={pageBreak}
         alt="section break image"
         margin="auto"
-        paddingTop={["8", "8", "16", "32", "48"]}
-        paddingBottom={["4", "4", "8", "16", "24"]}
+        paddingTop={["8", "8", "8", "24", "40"]}
+        paddingBottom={["0", "0", "4", "8", "12"]}
         paddingX={["12", "12", "24", "36", "48"]}
       />
     )}

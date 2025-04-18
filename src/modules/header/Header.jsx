@@ -1,4 +1,4 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import styled from "styled-components";
 
 import { CustomLink } from "../../components/custom-link";
@@ -24,8 +24,8 @@ export const Header = () => (
       <Box float="left">
         <Image src={icon} alt="CLC icon" height="40px" />
       </Box>
-      <Box float="right">
-        <CustomLink headFoot={true} href="#contact" text="Get in touch" />
+      <Box float="right" paddingTop="4px">
+        <CustomLink bold={true} headFoot={true} href="#contact" text="Get in touch" />
       </Box>
     </HeaderWrapper>
     <Spacer />

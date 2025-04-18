@@ -12,8 +12,20 @@ const Link = styled.a`
   }
 `;
 
-export const CustomLink = ({ headFoot = false, href, newTab = false, text}) => (
+export const CustomLink = ({
+  bold = true,
+  headFoot = false,
+  href,
+  newTab = false,
+  text
+}) => (
   <Link headFoot={headFoot} href={href} target={newTab ? "_blank" : ""}>
-    <Text as="span" textStyle={["xs", "xs", "sm", "md"]}>{text}</Text>
+    <Text
+    as="span"
+    fontWeight={bold ? "bold" : ""}
+    textStyle={["xs", "xs", "sm", "md"]}
+  >
+    {text}
+  </Text>
   </Link>
 );
