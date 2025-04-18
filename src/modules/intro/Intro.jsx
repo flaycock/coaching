@@ -12,7 +12,7 @@ export const Intro = () => (
       src={logo}
       alt="Clare Laycock Coaching logo"
       margin="auto"
-      paddingTop="32px"
+      paddingY="32px"
       paddingX={["75px", "120px", "150px", "200px", "250px"]}
     />
     <SectionContainer>
