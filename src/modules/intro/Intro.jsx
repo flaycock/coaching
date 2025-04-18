@@ -3,7 +3,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 import { BoldInline } from "../../components/bold-inline";
 import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
-import intro from "../../images/intro.webp";
+import intro from "../../images/intro.jpg";
 import logo from "../../images/logo-cropped.png";
 
 export const Intro = () => (

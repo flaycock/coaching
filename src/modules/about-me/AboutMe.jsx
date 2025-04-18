@@ -7,7 +7,7 @@ import { SectionContainer } from "../../components/section-container";
 export const AboutMe = () => (
   <SectionContainer heading="about me" numChildren={1}>
     <Box marginY="auto">
-      <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
+      <Text paddingBottom="4px" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
         What gets you out of bed in the morning ?
         <br /><br />
         For me it’s to be excited by life and to have fun - but also to&nbsp;

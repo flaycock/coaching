@@ -3,7 +3,7 @@ import { Box, Heading, Image, Text } from "@chakra-ui/react";
 
 import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
-import contact from "../../images/contact.webp";
+import contact from "../../images/contact.jpg";
 import { PRIMARY_FONT_COLOUR } from "../../constants";
 
 export const Contact = () => (
