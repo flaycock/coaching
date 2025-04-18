@@ -38,7 +38,7 @@ export const SectionContainer = ({ bottom = false, children, heading, numChildre
         src={pageBreak}
         alt="section break image"
         margin="auto"
-        paddingTop={["16px", "20px", "30px", "40px", "72px"]}
+        paddingTop={["20px", "20px", "30px", "40px", "72px"]}
         paddingBottom={["0", "0", "4px", "8px", "12px"]}
         paddingX={["12px", "12px", "2px4", "36px", "48px"]}
       />
