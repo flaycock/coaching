@@ -7,7 +7,7 @@ import contact from "../../images/contact.jpg";
 import { PRIMARY_FONT_COLOUR } from "../../constants";
 
 export const Contact = () => (
-  <Box id="contact" paddingBottom="16px">
+  <Box id="contact" marginY={["8px", "8px", "16px", "32px", "60px"]}>
     <SectionContainer bottom={true}>
       <Box marginY="auto">
         <Heading
