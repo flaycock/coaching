@@ -22,9 +22,9 @@ export const Header = () => (
   <>
     <HeaderWrapper data-test-id="header">
       <Box float="left">
-        <Image src={icon} alt="CLC icon" height="40px" />
+        <Image src={icon} alt="CLC icon" height="40px" marginBottom="4px" />
       </Box>
-      <Box float="right" paddingTop="4px">
+      <Box float="right">
         <CustomLink bold={true} headFoot={true} href="#contact" text="Get in touch" />
       </Box>
     </HeaderWrapper>

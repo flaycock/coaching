@@ -34,9 +34,9 @@ export const AboutMe = () => (
         Now, as a&nbsp;
           <BoldInline>qualified business and personal coach</BoldInline>
         &nbsp;and a member of the International Coaching Federation, I work with executives and teams
-        to unlock transformational thinking that enables them to move forwards in
+        to unlock transformational thinking that enables them to move forwards in&nbsp;
           <BoldInline>successful careers that fulfil their potential</BoldInline>
-        &nbsp;and, most importantly,
+        &nbsp;and, most importantly,&nbsp;
           <BoldInline>bring them joy</BoldInline>.
         <br />
         <br />

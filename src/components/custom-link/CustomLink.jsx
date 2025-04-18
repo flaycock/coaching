@@ -13,7 +13,7 @@ const Link = styled.a`
 `;
 
 export const CustomLink = ({
-  bold = true,
+  bold = false,
   headFoot = false,
   href,
   newTab = false,

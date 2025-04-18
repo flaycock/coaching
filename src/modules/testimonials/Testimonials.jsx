@@ -20,7 +20,7 @@ const TESTIMONIAL_DATA = [
     ],
     sources: [
       `
-        Katie Taylor
+        - Katie Taylor
       `,
       `
         CEO & Founder of The Latte Lounge & Author of Midlife Matters
@@ -37,7 +37,7 @@ const TESTIMONIAL_DATA = [
     ],
     sources: [
       `
-        Barry Dale
+        - Barry Dale
       `,
       `
         Director, Specialised & Acquisition Finance
@@ -56,7 +56,7 @@ const TESTIMONIAL_DATA = [
     ],
     sources: [
       `
-        Katy Hall
+        - Katy Hall
       `,
       `  
         Mid-career change !
