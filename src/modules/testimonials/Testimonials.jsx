@@ -62,6 +62,24 @@ const TESTIMONIAL_DATA = [
         Mid-career change !
       `
     ]
+  },
+  {
+    quotes: [
+      `
+        Super helpful - Clare really helped me see things from a new perspective and figure out how
+        to move forward. I left each session feeling clearer and more confident about what to do next.
+        I’ve also noticed a real shift in mindset and  I feel more confident and intentional in how I
+        articulate my goals.
+      `
+    ],
+    sources: [
+      `
+        - Domman Yakubu
+      `,
+      `
+        Start-up Entrepreneur
+      `
+    ]
   }
 ];
 
