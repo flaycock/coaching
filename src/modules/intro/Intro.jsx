@@ -1,21 +1,34 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 import { BoldInline } from "../../components/bold-inline";
 import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
+import circles from "../../images/circles.png";
 import intro from "../../images/intro.jpg";
 import logo from "../../images/logo-cropped.png";
 
+
 export const Intro = () => (
   <>
-    <Image
-      src={logo}
-      alt="Clare Laycock Coaching logo"
-      margin="auto"
-      paddingTop="32px"
-      paddingBottom={["0", "4px", "12px", "20px", "32px"]}
-      paddingX={["75px", "120px", "150px", "200px", "250px"]}
+    <Flex float="left" position="absolute" top="0" left="0">
+      <Image
+      src={circles}
+      alt="circles-design"
+      height={["0", "250px", "250px", "300px", "300px"]}
+      zIndex="3"
     />
+    </Flex>
+    <Flex>
+      <Image
+        src={logo}
+        alt="Clare Laycock Coaching logo"
+        margin="auto"
+        paddingTop="32px"
+        paddingBottom={["0", "4px", "12px", "20px", "32px"]}
+        paddingX={["75px", "120px", "150px", "200px", "250px"]}
+        zIndex="5"
+      />
+    </Flex>
     <SectionContainer>
       <Box marginY="auto">
         <Text lineHeight="50%" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
@@ -39,7 +52,7 @@ export const Intro = () => (
           If you’re tired of feeling stressed, overwhelmed, stuck, fearful of the future - or if you just
           need help figuring out your next steps - I can help you.
           <br /><br />
-          Get in touch <CustomLink href="#contact" text="HERE" /> to find out. I'd love to say hello.
+          Get in touch <CustomLink href="#contact" text="here" /> to find out. I'd love to say hello.
         </Text>
       </Box>
       <Box marginY="auto">

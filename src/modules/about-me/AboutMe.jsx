@@ -21,7 +21,7 @@ export const AboutMe = () => (
           <CustomLink
             href="https://docs.google.com/document/d/1MRJX5XB-EbOGtc6nYNN_pKKmsNagu_BvMCO4DQBVpco/edit?usp=drivesdk"
             newTab={true}
-            text="HERE"
+            text="here"
           />
         .
         <br /><br />
