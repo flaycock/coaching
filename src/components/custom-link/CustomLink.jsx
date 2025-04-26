@@ -25,7 +25,7 @@ export const CustomLink = ({
     fontFamily="LeagueSpartan"
     letterSpacing={["-1px", "-1px", "-2px", "-3px"]}
     fontWeight={bold ? "bold" : ""}
-    textStyle={["sm", "sm", "lg", "xl", "2xl"]}
+    textStyle={["md", "md", "xl", "2xl", "3xl"]}
   >
     {text}
   </Text>
