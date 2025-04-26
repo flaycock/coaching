@@ -23,7 +23,11 @@ export const CustomLink = ({
     <Text
     as="span"
     fontFamily="LeagueSpartan"
-    letterSpacing={["-1px", "-1px", "-2px", "-3px"]}
+    letterSpacing={headFoot ?
+      ["-1px", "-1px", "-2px", "-3px"]
+    :
+      ["0px", "0px", "-1px", "-2px"]
+    }
     fontWeight={bold ? "bold" : ""}
     textStyle={["md", "md", "xl", "2xl", "3xl"]}
   >
