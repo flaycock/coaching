@@ -22,7 +22,6 @@ export const Intro = () => (
       <Image
         src={logo}
         alt="Clare Laycock Coaching logo"
-        loading={["lazy", "lazy", "eager", "eager", "eager"]}
         margin="auto"
         paddingTop="32px"
         paddingBottom={["0", "4px", "12px", "20px", "32px"]}
