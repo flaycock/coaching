@@ -13,7 +13,7 @@ const HeaderWrapper = styled.div`
   top: 0;
   width: 100%;
 `;
-
+  
 const Spacer = styled.div`
   height: calc(70px + min(20px, 1vw));
 `;
@@ -26,7 +26,7 @@ export const Header = () => (
       </Box>
       <Box display="table" float="right" height="40px">
         <Box display="table-cell" verticalAlign="middle">
-          <CustomLink bold={true} headFoot={true} href="#contact" text="Get in touch" />
+          <CustomLink bold={true} headFoot={true} href="#contact" text="get in touch" />
         </Box>
       </Box>
     </HeaderWrapper>

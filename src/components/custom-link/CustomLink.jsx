@@ -4,7 +4,7 @@ import { Text } from "@chakra-ui/react"
 import { PRIMARY_FONT_COLOUR, SECONDARY_FONT_COLOUR } from "../../constants";
 
 const Link = styled.a`
-  color: ${(props) => props.headFoot ? PRIMARY_FONT_COLOUR : SECONDARY_FONT_COLOUR};
+  color: ${({ headFoot }) => headFoot ? PRIMARY_FONT_COLOUR : SECONDARY_FONT_COLOUR};
   cursor: pointer;
   text-decoration: none;
   &:hover {
@@ -22,8 +22,10 @@ export const CustomLink = ({
   <Link headFoot={headFoot} href={href} target={newTab ? "_blank" : ""}>
     <Text
     as="span"
+    fontFamily="LeagueSpartan"
+    letterSpacing={["-1px", "-1px", "-2px", "-3px"]}
     fontWeight={bold ? "bold" : ""}
-    textStyle={["xs", "xs", "sm", "md"]}
+    textStyle={["sm", "sm", "lg", "xl", "2xl"]}
   >
     {text}
   </Text>

@@ -23,13 +23,13 @@ export const Contact = () => (
         </Heading>
         <Text textStyle={["md", "md", "xl", "2xl", "3xl"]}>
         Thanks for taking a look at my website. If you’d like more information about how we might work
-        together and for details of pricing packages, please contact me on &nbsp;
-          <CustomLink href="mailto:clarelaycock5@gmail.com" text="EMAIL" />
+        together and for details of pricing packages, please contact me on&nbsp;
+          <CustomLink href="mailto:clarelaycock5@gmail.com" text="email" />
           &nbsp;or&nbsp;
           <CustomLink
             href="https://uk.linkedin.com/in/clare-laycock-2200b821"
             newTab={true}
-            text="LinkedIn"
+            text="linkedin"
           />.
         </Text>
       </Box>

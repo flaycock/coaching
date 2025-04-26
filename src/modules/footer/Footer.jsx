@@ -10,6 +10,7 @@ const FooterWrapper = styled.div`
   bottom: 0;
   padding: 16px 32px;
   position: absolute;
+  text-align: center;
   width: 100%;
 `;
 
@@ -20,27 +21,14 @@ const Spacer = styled.div`
 export const Footer = () => (
   <>
     <FooterWrapper data-test-id="footer">
-      <Box float="left">
-        <Text textStyle={["xs", "xs", "xs", "md"]}>Website:&nbsp;
-          <CustomLink
-            headFoot={true}
-            href="https://uk.linkedin.com/in/freddie-laycock-a23974171"
-            newTab={true}
-            text="Freddie Laycock"
-          />
-        </Text>
-      </Box>
-      <Box float="right">
-        <Text textStyle={["xs", "xs", "xs", "md"]}>
-          Photos:&nbsp;
-          <CustomLink
-            headFoot={true}
-            href="https://www.linkedin.com/in/jane-keating-391369139"
-            newTab={true}
-            text="Jane Keating"
-          />
-        </Text>
-      </Box>
+      <Text textStyle={["xs", "xs", "xs", "md"]}>Website:&nbsp;
+        <CustomLink
+          headFoot={true}
+          href="https://uk.linkedin.com/in/freddie-laycock-a23974171"
+          newTab={true}
+          text="freddie laycock"
+        />
+      </Text>
     </FooterWrapper>
     <Spacer />
   </>
