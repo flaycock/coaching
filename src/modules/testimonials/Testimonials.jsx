@@ -59,7 +59,7 @@ const TESTIMONIAL_DATA = [
         - Katy Hall
       `,
       `  
-        Mid-career change !
+        Mid-career change
       `
     ]
   },
