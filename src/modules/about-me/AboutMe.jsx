@@ -1,4 +1,4 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 import { BoldInline } from "../../components/bold-inline";
 import { CustomLink } from "../../components/custom-link";
@@ -12,7 +12,11 @@ export const AboutMe = () => (
         <br /><br />
         For me it’s to be excited by life and to have fun - but also to&nbsp;
           <BoldInline>share expertise and inspire others</BoldInline>
-        &nbsp;- which is why I launched Clare Laycock Coaching.
+        &nbsp;- which is why I launched&nbsp;
+          <Text as="span" fontWeight="bold">
+            Clare Laycock Coaching
+          </Text>
+        .
         <br />
         <br />
         I’ve spent 30+ years in global media companies, leading creative, commissioning and content
@@ -34,10 +38,8 @@ export const AboutMe = () => (
         Now, as a&nbsp;
           <BoldInline>qualified business and personal coach</BoldInline>
         &nbsp;and a member of the International Coaching Federation, I work with executives and teams
-        to unlock transformational thinking that enables them to move forwards in&nbsp;
-          <BoldInline>successful careers that fulfil their potential</BoldInline>
-        &nbsp;and, most importantly,&nbsp;
-          <BoldInline>bring them joy</BoldInline>.
+        to unlock transformational thinking that enables them to move forwards in successful careers
+        that fulfil their potential and, most importantly, bring them joy.
         <br />
         <br />
         But enough about me - what about you? Get in touch, it'd be great to meet you.

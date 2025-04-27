@@ -19,7 +19,7 @@ export const Header = () => (
     </Box>
     <Box display="table" float="right" height="40px">
       <Box display="table-cell" verticalAlign="middle">
-        <CustomLink bold={true} headFoot={true} href="#contact" text="get in touch" />
+        <CustomLink bold={true} headFoot={true} href="#contact" text="contact me" />
       </Box>
     </Box>
   </HeaderWrapper>

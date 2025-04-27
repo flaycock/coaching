@@ -14,7 +14,7 @@ export const Intro = () => (
       <Image
       src={circles}
       alt="circles-design"
-      height={["0", "200px", "250px", "275px", "300px"]}
+      height={["0", "225px", "275px", "325px", "400px"]}
       zIndex="3"
     />
     </Flex>
