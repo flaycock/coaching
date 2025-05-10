@@ -1,7 +1,7 @@
 import { Grid, Heading, Image } from "@chakra-ui/react";
 import styled from "styled-components";
 
-import { SECONDARY_BG_COLOUR, PRIMARY_FONT_COLOUR } from "../../constants";
+import { SECONDARY_BG_COLOUR, TERTIARY_FONT_COLOUR } from "../../constants";
 import pageBreak from "../../images/page-break.png";
 
 const SectionWrapper = styled.div`
@@ -16,7 +16,7 @@ export const SectionContainer = ({ bottom = false, children, heading, numChildre
     {heading && (
       <Heading
         as="h2"
-        color={PRIMARY_FONT_COLOUR}
+        color={TERTIARY_FONT_COLOUR}
         paddingBottom="16px"
         size={["3xl", "4xl", "4xl", "5xl", "6xl"]}
         textAlign="center"

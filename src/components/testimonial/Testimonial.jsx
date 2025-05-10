@@ -1,6 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 
-import { SECONDARY_FONT_COLOUR } from "../../constants";
+import { PRIMARY_FONT_COLOUR } from "../../constants";
 
 export const Testimonial = ({ quotes, sources }) => (
   <Box marginTop="16px" textAlign="center">
@@ -15,9 +15,10 @@ export const Testimonial = ({ quotes, sources }) => (
     ))}
     {sources.map(source => (
     <Text
-      color={SECONDARY_FONT_COLOUR}
+      color={PRIMARY_FONT_COLOUR}
       fontStyle="italic"
       textStyle={["xs", "xs", "md", "lg"]}
+      fontWeight="bold"
     >
       {source}
     </Text>

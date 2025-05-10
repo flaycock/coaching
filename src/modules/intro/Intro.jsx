@@ -38,15 +38,12 @@ export const Intro = () => (
           I’ve experienced them all, and overcome them to have a long and successful media career with
           a reputation as an excellent creative leader and communicator.
           <br /><br />
-          Now I use that expertise to&nbsp;
-            <BoldInline>unlock transformational success</BoldInline>
-          &nbsp;in others.
-          <br /><br />
-          Through&nbsp;
             <BoldInline>
-              one-to-one coaching, group coaching and team workshops
+              Now I use that expertise to unlock transformational success in others. Through one-to-one
+              coaching, group coaching and team workshops.
             </BoldInline>
-          &nbsp;I help executives and leaders succeed, building the courage, confidence and
+          <br /><br />
+          I help executives and leaders succeed, building the courage, confidence and
           communication skills they need to survive and thrive amidst industry disruption and change.
           <br /><br />
           If you’re tired of feeling stressed, overwhelmed, stuck, fearful of the future - or if you just

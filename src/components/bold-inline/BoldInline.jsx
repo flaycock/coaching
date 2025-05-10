@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-import { SECONDARY_FONT_COLOUR } from "../../constants";
+import { PRIMARY_FONT_COLOUR } from "../../constants";
 
 const BoldInlineWrapper = styled.span`
-  color: ${SECONDARY_FONT_COLOUR};
-  font-weight: normal;
+  color: ${PRIMARY_FONT_COLOUR};
+  font-weight: bold;
 `;
 
 export const BoldInline = ({ children }) => (

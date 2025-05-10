@@ -22,8 +22,9 @@ export const Contact = () => (
           contact me
         </Heading>
         <Text textStyle={["md", "md", "xl", "2xl", "3xl"]}>
-        Thanks for taking a look at my website. If you’d like more information about how we might work
-        together and for details of pricing packages, please contact me on&nbsp;
+        Thanks for taking a look at my website. If you'd like more information about how we might work
+        together, details of pricing packages, or to book a free chesmitry call, please contact me
+        via &nbsp;
           <CustomLink href="mailto:clarelaycock5@gmail.com" text="email" />
           &nbsp;or&nbsp;
           <CustomLink
