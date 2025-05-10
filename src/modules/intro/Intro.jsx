@@ -5,7 +5,7 @@ import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
 import circles from "../../images/circles.png";
 import intro from "../../images/intro-new.jpg";
-import logo from "../../images/logo-cropped.png";
+import logo from "../../images/logo-new.png";
 
 
 export const Intro = () => (
