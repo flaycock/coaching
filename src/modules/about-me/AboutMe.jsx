@@ -20,11 +20,11 @@ export const AboutMe = () => (
         <br />
         I’ve spent 30+ years in global media companies, leading creative, commissioning and content
         teams through an ever-changing media landscape.  I’ve held senior roles at Discovery, the BBC,
-        UKTV and Warner Brothers Discovery.  You can read more in my bio&nbsp;
+        UKTV and Warner Brothers Discovery.  You can read more in&nbsp;
           <CustomLink
             href="https://docs.google.com/document/d/1MRJX5XB-EbOGtc6nYNN_pKKmsNagu_BvMCO4DQBVpco/edit?usp=drivesdk"
             newTab={true}
-            text="here"
+            text="my bio"
           />
         .
         <br /><br />
