@@ -30,17 +30,19 @@ const TESTIMONIAL_DATA = [
   {
     quotes: [
       `
-        Working with Clare has been a transformative experience.  Her guidance helped me clarify some
-        jumbled thinking, and take real action towards my goals.  I now feel more aligned and confident
-        than I did before.  I can’t thank Clare enough.
+        My sessions with Clare have been incredibly helpful. She's creative, kind and collaborative.
+        Working together, she helped me break professional challenges down into bite size chunks, to
+        come up with strategic and actionable solutions. Her encyclopaedic knowledge of our industry,
+        and the people who run it, was also really useful in helping me come up with practical next
+        steps. I would recommend her to any senior leaders in TV and film.
       `
     ],
     sources: [
       `
-        - Barry Dale
+        - Lucy Pilkington
       `,
       `
-        Director, Specialised & Acquisition Finance
+        Founder & CEO, Milk & Honey Media
 
       `
     ]

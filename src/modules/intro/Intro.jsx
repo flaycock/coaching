@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, List, Text } from "@chakra-ui/react";
 
 import { BoldInline } from "../../components/bold-inline";
 import { CustomLink } from "../../components/custom-link";
@@ -38,16 +38,21 @@ export const Intro = () => (
           I’ve experienced them all, and overcome them to have a long and successful media career with
           a reputation as an excellent creative leader and communicator.
           <br /><br />
-            <BoldInline>
-              Now I use that expertise to unlock transformational success in others. Through one-to-one
-              coaching, group coaching and team workshops.
-            </BoldInline>
+          <BoldInline>
+            Now I use that expertise to unlock transformational success in others, helping executives
+            and leaders build the courage, confidence and communication skills they need to survive and
+            thrive amidst disruption and change.
+          </BoldInline>
           <br /><br />
-          I help executives and leaders succeed, building the courage, confidence and
-          communication skills they need to survive and thrive amidst industry disruption and change.
-          <br /><br />
-          If you’re tired of feeling stressed, overwhelmed, stuck, fearful of the future - or if you just
-          need help figuring out your next steps - I can help you.
+          <List.Root>
+            <List.Item>Bespoke 1:1 Coaching</List.Item>
+            <List.Item>Redundancy Reboot Coaching</List.Item>
+            <List.Item>Speed Coaching Power Hours</List.Item>
+            <List.Item>Workshops & Team Days</List.Item>
+          </List.Root>
+          <br />
+          If you, or people within your organisation, are feeling stressed, overwhelmed or stuck - or just
+          help figuring out next steps - I can help.
           <br /><br />
           Get in touch <CustomLink href="#contact" text="here" /> to find out. I'd love to say hello.
         </Text>
