@@ -4,7 +4,7 @@ import { BoldInline } from "../../components/bold-inline";
 import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
 import circles from "../../images/circles.png";
-import intro from "../../images/intro-new.jpg";
+import intro from "../../images/white-stairs.jpg";
 import logo from "../../images/logo-new.png";
 
 
@@ -51,7 +51,7 @@ export const Intro = () => (
             <List.Item>Workshops & Team Days</List.Item>
           </List.Root>
           <br />
-          If you, or people within your organisation, are feeling stressed, overwhelmed or stuck - or just
+          If you, or people within your organisation, are feeling stressed, overwhelmed, stuck - or need
           help figuring out next steps - I can help.
           <br /><br />
           Get in touch <CustomLink href="#contact" text="here" /> to find out. I'd love to say hello.

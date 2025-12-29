@@ -1,32 +1,10 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
+import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
 import { Testimonial } from "../../components/testimonial";
 
 const TESTIMONIAL_DATA = [
-  {
-    quotes: [
-      `
-        Clare was the best ‘gift to myself’ I could’ve asked for.  She has been so helpful in providing
-        me with the dedicated time, expertise and headspace I’ve needed to just focus on me for a change,
-        which has allowed me to think clearly through my professional goals for the future.
-      `,
-      `
-        She was kind, considerate, helpful, knowledgeable and patient throughout.  I would highly
-        recommend Clare to anyone who is struggling with the way forward, be that in their personal or
-        professional life, or indeed both !
-
-      `
-    ],
-    sources: [
-      `
-        - Katie Taylor
-      `,
-      `
-        CEO & Founder of The Latte Lounge & Author of Midlife Matters
-      `
-    ]
-  },
   {
     quotes: [
       `
@@ -50,18 +28,25 @@ const TESTIMONIAL_DATA = [
   {
     quotes: [
       `
-        If you’re wondering about coaching - just do it !  Across our sessions Clare helped me identify
-        what had been holding me back from making a crucial decision in my life - which has unlocked all
-        sorts of positive changes.  I’m no longer stuck and in limbo and can now look to the future with
-        excitement.  Thank you Clare.
+        I had six insightful and highly valuable sessions and was able to lead the direction of
+        the sessions so we could tailor them to the areas I was most interested in exploring and
+        improving. They helped me build on my strengths and identify areas where I could adapt and
+        develop further. They also gave me the chance to gather feedback from colleagues, explore how
+        my approach is perceived, and consider practical ways to refine it.
+      `,
+      `
+        Overall, it was a positive and extremely helpful experience that has given me greater
+        self-awareness, along with practical tools and methods to improve my performance for the
+        benefit of both myself and my team.
+
       `
     ],
     sources: [
       `
-        - Katy Hall
+        - John Connerty
       `,
-      `  
-        Mid-career change
+      `
+        Head of Factual Entertainment, Crackit Productions
       `
     ]
   },
@@ -92,5 +77,14 @@ export const Testimonials = () => (
         <Testimonial quotes={quotes} sources={sources} />
       ))}
     </Box>
+    <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
+      You can also read about more of my clients' experiences&nbsp;
+      <CustomLink
+        href="https://docs.google.com/document/d/1nao1ZmT-FEB21-rC-yoYGLIB63ck5d-WJmUlwpqOztQ/edit?usp=sharing"
+        newTab
+        text="here"
+      />
+      .
+    </Text>
   </SectionContainer>
 );
