@@ -1,7 +1,6 @@
 import { Box, Flex, Image, List, Text } from "@chakra-ui/react";
 
 import { BoldInline } from "../../components/bold-inline";
-import { CustomLink } from "../../components/custom-link";
 import { SectionContainer } from "../../components/section-container";
 import circles from "../../images/circles.png";
 import intro from "../../images/white-stairs.jpg";
@@ -54,7 +53,7 @@ export const Intro = () => (
           If you, or people within your organisation, are feeling stressed, overwhelmed, stuck - or need
           help figuring out next steps - I can help.
           <br /><br />
-          Get in touch <CustomLink href="#contact" text="here" /> to find out. I'd love to say hello.
+          Get in touch, I'd love to say hello.
         </Text>
       </Box>
       <Box marginY="auto">

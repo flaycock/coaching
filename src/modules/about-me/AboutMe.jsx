@@ -10,8 +10,8 @@ export const AboutMe = () => (
       <Text paddingBottom="4px" textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
         What gets you out of bed in the morning ?
         <br /><br />
-        For me it’s to be excited by life and to have fun - but also to share expertise and inspire others
-        - which is why I launched&nbsp;
+        For me it’s to be excited by life and to have fun - but also to share my expertise and inspire
+        others - which is why I launched&nbsp;
           <Text as="span" fontWeight="bold">
             Clare Laycock Coaching
           </Text>
