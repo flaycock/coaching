@@ -78,7 +78,7 @@ export const Testimonials = () => (
       ))}
     </Box>
     <Text textStyle={["sm", "sm", "lg", "xl", "2xl"]}>
-      You can also read about more of my clients' experiences&nbsp;
+      Read more testemonials&nbsp;
       <CustomLink
         href="https://docs.google.com/document/d/1nao1ZmT-FEB21-rC-yoYGLIB63ck5d-WJmUlwpqOztQ/edit?usp=sharing"
         newTab
